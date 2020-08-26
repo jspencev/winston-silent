@@ -1,0 +1,22 @@
+{
+  "name": "winston-silent",
+  "version": "1.0.0",
+  "description": "Winston transport that goes nowhere.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jspencev/winston-silent"
+  },
+  "keywords": [
+    "winston",
+    "silent"
+  ],
+  "author": {
+    "name": "John Spence",
+    "email": "john.spence.v@gmail.com"
+  },
+  "license": "MIT"
+}
