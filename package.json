@@ -4,7 +4,7 @@
   "description": "Winston transport that goes nowhere.",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,16 @@
     "name": "John Spence",
     "email": "john.spence.v@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0",
+    "winston": "^3.3.3"
+  },
+  "dependencies": {
+    "winston-transport": "^4.4.0"
+  }
 }

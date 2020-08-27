@@ -5,7 +5,7 @@ A winston transport that goes nowhere.
 npm install winston-silent
 ```
 ## Usage
-This trasport can be used in place of an empty transports array.
+This transport can be used in place of an empty transports array.
 ```
 const winston = require('winston');
 cont WinstonSilent = require('winston-silent');
