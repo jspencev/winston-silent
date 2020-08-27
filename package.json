@@ -1,6 +1,6 @@
 {
   "name": "winston-silent",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Winston transport that goes nowhere.",
   "main": "index.js",
   "scripts": {
