@@ -7,3 +7,4 @@
 /.gitignore
 /.nvmrc
 /nyc.config.js
+/package-lock.json
